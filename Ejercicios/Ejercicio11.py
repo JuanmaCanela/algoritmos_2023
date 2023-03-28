@@ -1,7 +1,6 @@
 #Desarrollar un algoritmo que invierta un número entero sin convertirlo a cadena
 
 def InvertirNum(numero):
-    '''Invierte un numero dado'''
     if (numero // 10 == 0):
         return numero
     else:
