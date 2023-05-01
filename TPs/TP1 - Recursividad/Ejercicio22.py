@@ -7,3 +7,18 @@
 #a. sacar los objetos de la mochila de a uno a la vez hasta encontrar un sable de luz o que no queden más objetos en la mochila;
 #b. determinar si la mochila contiene un sable de luz y cuantos objetos fueron necesarios sacar para encontrarlo;
 #c. Utilizar un vector para representar la mochila.
+
+mochila = ['pistola', 'botella', 'vendas','sable de luz']
+
+def usar_la_fuerza(mochila, index=0, contador=0):
+    if index >= len(mochila):
+        return ('No se encontró el sable de luz')
+    elif mochila[index] == "sable de luz":
+        return ('Se encontró el sable de luz', contador+1)
+    else:
+        return usar_la_fuerza(mochila, index+1, contador+1)
+
+print(usar_la_fuerza(mochila))
+
+
+        
