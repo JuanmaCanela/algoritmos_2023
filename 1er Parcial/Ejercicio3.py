@@ -5,6 +5,7 @@
 #b. Determinar cuántos créditos galácticos recaudo en total.
 #c. Determinar el número de la misión en que capturo a Han Solo y en que planeta fue, suponga que dicha misión está cargada.
 
+
 class Bitacora_BobaFett:
     def __init__(self, planeta, capturado, recompensa):
         self.planeta = planeta

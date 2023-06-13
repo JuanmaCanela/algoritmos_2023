@@ -10,4 +10,4 @@ def contar_palabra(vector, palabra, indice=0):
     else:
         return contar_palabra(vector, palabra, indice + 1)
     
-print(contar_palabra(lista_palabras, "pelota"))
+print(contar_palabra(lista_palabras, "casa"))
